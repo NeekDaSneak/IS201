@@ -37,3 +37,17 @@ for animal in animals[4:7]:
     print(animal.title())
 """
 
+"""
+from collections import Counter
+
+# Input list
+input_list = [10, 20, 30, 20, 20, 30, 40, 50, -20, 60, 60, -20, -20]
+
+# Count frequencies of each element
+element_counts = Counter(input_list)
+
+# Extract elements with count > 1
+output_list = [item for item, count in element_counts.items() if count > 1]
+
+print("Output list:", output_list)
+"""
